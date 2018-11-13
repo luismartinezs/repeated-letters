@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 
 // PHASE 1 & 2
@@ -47,7 +47,7 @@ function isVowel(str) {
 @ return {Boolean} true if str can be converted to a number
 */
 function strIsNumber(str) {
-    return !Number.isNaN( Number( str ) )
+    return !Number.isNaN( Number( str ) );
 }
 
 /*
