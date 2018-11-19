@@ -10,7 +10,7 @@ for (let i=0; i<myName.length; i++) {
 
     let item = myName[i];
 
-    if ( strIsNumber(item) ) {
+    if ( isANumber(item) ) {
         console.log(`People's names don't contain numbers!`);
         continue;
     }
@@ -46,7 +46,7 @@ function isVowel(str) {
 @ param {String} str
 @ return {Boolean} true if str can be converted to a number
 */
-function strIsNumber(str) {
+function isANumber(str) {
     return !Number.isNaN( Number( str ) );
 }
 
